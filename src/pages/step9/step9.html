@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>看穿你的心</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <p text-center>你的牌是</p>
+  <ion-card>
+    <img [src]=" 'assets/img/' + suit + num  +'.jpg' ">
+  </ion-card>   
+</ion-content>
+<ion-footer>
+  <button ion-button color="primary" (tap)="restart()" block>重玩</button>
+</ion-footer>
